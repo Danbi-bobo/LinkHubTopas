@@ -1,0 +1,38 @@
+export const links = [
+  {
+    id: 1,
+    title: 'Figma - Design System v2.1',
+    description: 'The single source of truth for all our design components and patterns.',
+    category: 'Marketing Resources',
+    tags: ['#design'],
+    icon: 'https://lh3.googleusercontent.com/aida-public/AB6AXuBIeLvZbyFg8INBpcDEeP9_Aq63dsA3w1Fp7QHOplw2flenIEo0eHqZhnAYbccxiT32Qbrii3dPQyC3QM6_3lc_tVxhgfcMjh5i8IxVvN94uMw-rfVxFFKZYfaUFckDXz64iwueiJ34-FWq_vgObkqCYaEIdvmHaqXimukh6NyWBl8cLYGNRo3eJar-LPhHJY4gR6ag8fbloYtXbL8DYPDBYjCq4MYOK7BqFYZqOUCtD4zNS6FbLH4Y1hqPl12AYp6ykzkpuhScukw',
+    isFavorite: true,
+  },
+  {
+    id: 2,
+    title: 'Project Phoenix - Launch Plan',
+    description: 'Detailed timeline and tasks for the upcoming product launch.',
+    category: 'Project Phoenix',
+    tags: ['#q4-report'],
+    icon: 'https://lh3.googleusercontent.com/aida-public/AB6AXuDRAZqtokQ3nre_Y-3DdVh0fQOxGBoTiVB4Fm_2BCJ31jSoK93MJGhua1tXLAXEoowCODZClMXg-jOPx5Q7DDFCSDflH4x-KoFV2C70UcC1O1OIu7MhueMYa_PJxvjxphlYqqUqif168HfrUlsB0m-KegiwPEjviLj9D2k1U5Go8Gx4ItcKmNft17bId-KKPsl9Bsi2v6SW0rxka2IiKat2YXNqzNgBriImYP6JxDFG9UdwZAHNv_53p6ICWqA7xb_htJbQTk5hTZ0',
+    isFavorite: false,
+  },
+  {
+    id: 3,
+    title: 'Backend API Documentation',
+    description: 'Official developer docs for the user authentication service.',
+    category: 'Engineering Docs',
+    tags: ['#onboarding'],
+    icon: 'https://lh3.googleusercontent.com/aida-public/AB6AXuDHN9Qh3-TwgAUo4O7Onm-zPLA_mM22GtofkuustK6oOI0Ee86uiPnaoPxWXOjtFmi9TtymAR_OfwD4mkri8K-RfZZZeoeEyoXxjMXAmij2mjcs1SW_xsyt3FvSqYNXk2SVolynEG5nUODqkS5BkZNBggHByWdiGqZqQRT8tqnpGlz742HJUwRJuHhc-NQ5gGAUBZIrr6IUM6UJydt4-XC3okup0qQZL5gKLEi-eVtosDrIeX0ywfkCpQen6dfdDULyzyVQafwtEpc',
+    isFavorite: false,
+  },
+  {
+    id: 4,
+    title: 'Q4 Content Marketing Plan',
+    description: 'Strategy and calendar for all content marketing initiatives.',
+    category: 'Marketing Resources',
+    tags: ['#q4-report'],
+    icon: 'https://lh3.googleusercontent.com/aida-public/AB6AXuAB1ZCiv4e45XFpJUEF4JcadmuRZ6hNdXMR3B3qN2K1mbH0VD94k4oRZMoAbj6OQbX3DloSjGfSREosBv4uIm7MEh_yZ3XOuqamccV3IsdGZREHiJbVmxTTQaAE7iUPy_gE4zPoPTN-UzeCuYj0BuowXy_W3v6NzS-uAWHSqXcZ1WBWClxpUo7YAsRTPyDa8Swj4BhasSkaPELbz7V3BfvQSqT2DmX5cdEHJMvC_KC764Dj4E1vtL1dn-SoVGXgyvxTzGy7aIVAVcw',
+    isFavorite: false,
+  },
+];
