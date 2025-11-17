@@ -1,4 +1,5 @@
 import React, { useContext } from 'react';
+import { NavLink } from 'react-router-dom';
 import { ThemeContext } from '../context/ThemeContext';
 
 const Header = () => {
@@ -26,10 +27,10 @@ const Header = () => {
       </div>
       <div className="flex flex-1 justify-end gap-4 md:gap-6">
         <div className="flex gap-2">
-          <button className="flex min-w-[84px] max-w-[480px] cursor-pointer items-center justify-center overflow-hidden rounded-lg h-10 px-4 bg-primary text-white text-sm font-bold leading-normal tracking-[0.015em] gap-2">
+          <NavLink to="/add" className="flex min-w-[84px] max-w-[480px] cursor-pointer items-center justify-center overflow-hidden rounded-lg h-10 px-4 bg-primary text-white text-sm font-bold leading-normal tracking-[0.015em] gap-2">
             <span className="material-symbols-outlined text-xl">add</span>
             <span className="truncate hidden sm:inline">Add New Link</span>
-          </button>
+          </NavLink>
           <button className="flex max-w-[480px] cursor-pointer items-center justify-center overflow-hidden rounded-lg h-10 bg-gray-200 dark:bg-[#292e38] text-gray-600 dark:text-white gap-2 text-sm font-bold leading-normal tracking-[0.015em] min-w-0 px-2.5">
             <span className="material-symbols-outlined text-xl">notifications</span>
           </button>
